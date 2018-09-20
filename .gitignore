@@ -1,0 +1,27 @@
+# Build directories
+target/
+build/
+bin
+
+# Eclipse IDE files
+.settings
+.classpath
+.project
+.checkstyle
+.springBeans
+.factorypath
+.apt_generated/
+.apt_generated_tests/
+.externalToolBuilders/
+
+.DS_Store
+dependency-reduced-pom.xml
+
+# Intellij
+.idea/
+*.iml
+*.iws
+.recommenders
+
+# emacs temp files
+*~

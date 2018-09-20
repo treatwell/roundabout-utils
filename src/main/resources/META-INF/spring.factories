@@ -1,0 +1,8 @@
+org.springframework.context.ApplicationContextInitializer=\
+    com.treatwell.roundabout.utils.config.AutoConfigurationReportInitializer,\
+    com.treatwell.roundabout.utils.config.SpringEventLogger
+
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+    com.treatwell.roundabout.utils.health.BroadcastHealthAggregatorAutoConfiguration,\
+    com.treatwell.roundabout.utils.health.CustomHealthEndpoint,\
+    com.treatwell.roundabout.utils.config.RepositoryValidatorAutoConfiguration
